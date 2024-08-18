@@ -1,0 +1,55 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-evenly; /* Logo ve bağlantılar arasındaki boşluğu artırır */
+  align-items: center;
+  background-color: #4CAF50; /* Yeşil arka plan */
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Hafif gölge efekti */
+}
+
+.navbar-logo {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px; /* Harf aralığı */
+}
+.link{text-decoration: none;
+color: white;}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px 10px; /* İç boşluk */
+  border-radius: 4px; /* Köşe yuvarlama */
+  transition: background-color 0.3s, color 0.3s; /* Geçiş efekti */
+  color: #fff; /* Yazı rengi */
+  border: none; /* Buton kenar çizgisi yok */
+  background: none; /* Arka plan yok */
+  cursor: pointer; /* İmleç buton işareti */
+}
+
+.navbar-link:hover {
+  background-color: #fff; /* Arka plan rengi */
+  color: #4CAF50; /* Yazı rengi */
+  text-decoration: none;
+}
+
+/* Buton stillerini özel olarak ele alalım */
+.navbar-link-button {
+  background-color: transparent; /* Buton arka planı */
+  border: none; /* Buton kenar çizgisi yok */
+  color: #fff; /* Buton yazı rengi */
+  font-size: 18px;
+  cursor: pointer; /* İmleç buton işareti */
+}
+
+.navbar-link-button:hover {
+  background-color: #fff; /* Hover arka plan rengi */
+  color: #4CAF50; /* Hover yazı rengi */
+}

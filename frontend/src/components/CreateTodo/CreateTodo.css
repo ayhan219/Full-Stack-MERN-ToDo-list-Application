@@ -1,0 +1,60 @@
+/* CreateTodo.css */
+.create-todo {
+    background-color: #fff; /* Beyaz arka plan */
+    border-radius: 8px; /* Köşe yuvarlama */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    padding: 20px;
+    max-width: 600px; /* Maksimum genişlik */
+    margin: 0 auto; /* Merkezleme */
+  }
+  
+  .create-todo h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Alt boşluk */
+  }
+  
+  .todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Alanlar arasındaki boşluk */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px; /* Etiket ve input arasındaki boşluk */
+  }
+  
+  input,
+  textarea {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Gri sınır */
+    border-radius: 4px; /* Köşe yuvarlama */
+    width: 100%; /* Genişlik ayarı */
+  }
+  
+  textarea {
+    resize: vertical; /* Dikeyde yeniden boyutlandırılabilir */
+    min-height: 100px; /* Minimum yüksekliği ayarla */
+  }
+  
+  .submit-button {
+    background-color: #4CAF50; /* Yeşil arka plan */
+    color: #fff; /* Beyaz yazı rengi */
+    border: none;
+    padding: 10px 20px; /* İç boşluk */
+    font-size: 16px;
+    border-radius: 5px; /* Köşe yuvarlama */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Geçiş efekti */
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Üzerine gelindiğinde renk değişimi */
+  }
+  

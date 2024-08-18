@@ -1,0 +1,43 @@
+/* Header.css */
+.header {
+    background-color: #f4f4f9; /* Açık gri arka plan */
+    color: #333; /* Koyu gri yazı rengi */
+    text-align: center;
+    padding: 40px 20px; /* Üstten ve alttan boşluk */
+    border-bottom: 2px solid #4CAF50; /* Alt sınır */
+    height: 100vh;
+  }
+  
+  .header-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Alt boşluk */
+  }
+  
+  .header-message {
+    font-size: 18px;
+    color: #666; /* Daha açık gri yazı rengi */
+    margin-bottom: 20px; /* Butonlar arasında boşluk */
+  }
+  
+  .header-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Butonlar arasında boşluk */
+  }
+  
+  .header-button {
+    background-color: #4CAF50; /* Yeşil arka plan */
+    color: #fff; /* Beyaz yazı rengi */
+    border: none;
+    padding: 10px 20px; /* İç boşluk */
+    font-size: 16px;
+    border-radius: 5px; /* Köşe yuvarlama */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Geçiş efekti */
+  }
+  
+  .header-button:hover {
+    background-color: #45a049; /* Üzerine gelindiğinde renk değişimi */
+  }
+  
